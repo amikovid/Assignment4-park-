@@ -1,0 +1,113 @@
+<!-- The assignment was for a park but I did a farm instead because my brother runs a farm and I wanted to create something personal to me. Hope you like it (: -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Park(Farm) Website</title>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <style>.the-color{
+        background-color: #9f6221;
+    }
+    </style>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark the-color">
+        <div class="container display-center">
+            <a class="navbar-brand" href="#hero">Aranyak Farm</a>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#hero">Home</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <style>
+        .hero-section {
+            background-image: url(images/img_3815-copy-1.jpg); 
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            height: 90vh; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .hero-section h1, .hero-section p {
+            color: #fff;
+        }
+        
+    </style>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container align-items-center justify-content-center">
+            <h1 class="align-items-center">Aranyak Farms</h1>
+            <p class="align-items-center">Experience life in the middle of nowhere</p>
+        </div>
+    </section>
+    
+    <!-- Photo Gallery Section -->
+    
+    <section id="gallery" class="gallery-section py-5">
+        <div class="container">
+            <h2 class="text-center" style="margin-bottom: 5%;">Photo Gallery</h2>
+            <div class="row" style="border: #9f6221 3px solid;">
+                <!-- My images are different sizes, so I am using different columns to space them. -->
+                <div class="col-md-4">
+                    <img src="images/img_3823.jpg" alt="Gallery 1" class="img-fluid mb-4">
+                </div>
+                <div class="col-md-8">
+                    <img src="images/img_4486-copy-1.jpg" alt="Gallery 2" class="img-fluid mb-4">
+                </div>    
+            </div>
+            <div class="row" style="border: #9f6221 3px solid;">
+                <div class="col-md-4 ">
+                    <img src="images/img_4726-copy-1.jpg" alt="Gallery 3" class="img-fluid mb-4">
+                </div>
+                <div class="col-md-8 ">
+                    <img src="images/whatsapp-image-2021-10-27-at-8.43.24-am.jpeg" alt="Gallery 3" class="img-fluid mb-4">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Map Section (Contact) -->
+    <section id="contact" class="map-section py-5">
+        <div class="container">
+            <h2 class="text-center">Find us</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3658.3004832051174!2d87.58453427665638!3d23.52169260376566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDMxJzIwLjgiTiA4N8KwMzUnMTEuMyJF!5e0!3m2!1sen!2sin!4v1694100721044!5m2!1sen!2sin" width="100%" height="500px"></iframe>
+            <p class="text-center">Farm Address: Bara Chatra, West Bengal 713153</p>
+            <p class="text-center">Phone: +91 99999 99999</p>
+            <p class="text-center">Follow the founder: <i class="fas fa-globe"></i><a href="https://korakbhaduri.com/">Founder's website</a>, <i class="fab fa-twitter"></i><a href="https://twitter.com/korakbhaduri">Founder's Twitter</a></p>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer class="footer-section text-center py-3" style="border-top: 1px black solid;">
+        <div class="container">
+            <p>&copy; 2023 Aranyak Farms. All rights reserved by The Bhaduri Family.</p>
+        </div>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+    </body>
+    </html>
+</html>
